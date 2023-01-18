@@ -1,0 +1,162 @@
+
+
+
+body {
+    color: #4e4139;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body a{
+    text-decoration: none;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.container{
+    display: flex;
+}
+
+body {
+    background: #272727;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: rgb(130, 158, 77);
+    width: 280px;
+    margin: 10px;
+    border-radius: 20px 20px 0 0;
+}
+.card-image {
+   
+    height: 180px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 20px 20px 0 0;
+}
+
+.car-1 {
+    background-image: url('../images/adopt1.webp');
+}
+
+
+.car-2{
+    background-image: url('../images/adopt2.jpg');
+}
+
+
+.car-3{
+    background-image: url('../images/adopt3.jpg');
+}
+
+.card h2 {
+    padding: 10px;
+}
+
+.card p {
+    padding: 10px;
+}
+.card a {
+    color: rgba(247, 243, 243, 0.781);
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.card:hover {
+    background-color: hsla(197, 81%, 46%, 0.555);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+}
+
+.dog-1 {
+    background-image: url('../images/shirt1.webp');
+}
+
+
+.dog-2{
+    background-image: url('../images/shirt2.webp');
+}
+
+
+.dog-3{
+    background-image: url('../images/shirt3.jpg');
+}
+
+.dog-4{
+    background-image: url('../images/shirt4.png');
+}
+.dog-5{
+    background-image: url('../images/shirt5.webp');
+}
+.dog-6{
+    background-image: url('../images/shirt7.webp');
+}
+.dog-7{
+    background-image: url('../images/shirt8.webp');
+}
+.dog-8{
+    background-image: url('../images/shirt9.webp');
+}
+.dog-9{
+    background-image: url('../images/shirt10.webp');
+}
+
+.logos img{
+    width:50px;
+    height: 50px;
+}
+
+.logo-a:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+
+}
+.logo :hover{
+    cursor: pointer;
+    transform: scale(1.10);
+    transition: all 1s ease;
+}
+.icon {
+    width:80px;
+}
+.voucher {
+    width: 50px;
+}
+
+.logo2 img{
+    border-radius: 0px;
+}
+
+.logo2 button{
+    border-radius: 20px;
+}
+.checkout button{
+    border-radius: 20px;
+}
+
+.client img{
+    width:500px;
+    height: 200px;
+}
+
+.employee img{
+    width: 500px;
+    height: 300px;
+}
+
