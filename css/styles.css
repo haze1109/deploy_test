@@ -173,3 +173,9 @@ h1 {
     transition: all 1s ease;
     background-color: white;
 }
+
+.happy img{
+    width: 500px;
+    border-radius: 30px;
+}
+
