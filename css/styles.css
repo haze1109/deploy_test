@@ -163,6 +163,7 @@ h1 {
     );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    background-clip: none;
 }
 .choices button:hover{
     cursor: pointer;
@@ -179,7 +180,4 @@ h1 {
 .paw img{
     width:60px;
     border-radius: 30px;
-}
-img {
-    width:100%
 }
