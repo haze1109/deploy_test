@@ -156,10 +156,6 @@ body {
     border-radius: 30px;
 }
 
-.employee img{
-    width: 300px;
-    height: 250px;
-}
 
 h1 {
     background: linear-gradient(
@@ -183,4 +179,7 @@ h1 {
 .paw img{
     width:60px;
     border-radius: 30px;
+}
+img {
+    width:100%
 }
