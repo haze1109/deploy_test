@@ -15,63 +15,26 @@ ul {
   padding: 0;
 }
 
-
-
-
 body {
-    background: #272727;
+    background: #59a5d8;
 }
-
-.container {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+.card button{
+    opacity:75%;
 }
-
 .card {
-   
-    width: 280px;
+    width: 290px;
     margin: 10px;
     border-radius: 20px 20px 0 0;
 }
 .card-image {
    
-    height: 180px;
+    height: 300px;
+    margin-top: 15px;
     margin-bottom: 15px;
     background-size: cover;
     border-radius: 20px 20px 0 0;
 }
 
-.car-1 {
-    background-image: url('../images/adopt1k.jpeg');
-}
-
-
-.car-2{
-    background-image: url('../images/adopt2.jpg');
-}
-
-
-.car-3{
-    background-image: url('../images/adopt3.jpg');
-}
-
-.card h2 {
-    padding: 10px;
-}
-
-.card p {
-    padding: 10px;
-}
-.card a {
-  
-    padding: 15px 20px;
-    display: block;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-}
 .card:hover {
     cursor: pointer;
     transform: scale(1.03);
@@ -79,36 +42,36 @@ body {
 }
 
 .dog-1 {
-    background-image: url('../images/shirt1.webp');
+    background-image: url('../images/df14.jpg');
 }
 
 
 .dog-2{
-    background-image: url('../images/shirt2.webp');
+    background-image: url('../images/df24.jpg');
 }
 
 
 .dog-3{
-    background-image: url('../images/shirt3.jpg');
+    background-image: url('../images/df19.jpg');
 }
 
 .dog-4{
-    background-image: url('../images/shirt4.png');
+    background-image: url('../images/df13.jpg');
 }
 .dog-5{
-    background-image: url('../images/shirt5.webp');
+    background-image: url('../images/df21.jpg');
 }
 .dog-6{
-    background-image: url('../images/shirt7.webp');
+    background-image: url('../images/df28.jpg');
 }
 .dog-7{
-    background-image: url('../images/shirt8.webp');
+    background-image: url('../images/df2.jpg');
 }
 .dog-8{
-    background-image: url('../images/shirt9.webp');
+    background-image: url('../images/df9.webp');
 }
 .dog-9{
-    background-image: url('../images/shirt10.webp');
+    background-image: url('../images/df10.jpg');
 }
 
 .logos img{
