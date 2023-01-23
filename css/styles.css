@@ -17,9 +17,6 @@ ul {
 
 
 
-.container{
-    display: flex;
-}
 
 body {
     background: #272727;
@@ -32,7 +29,7 @@ body {
 }
 
 .card {
-    background: rgb(130, 158, 77);
+   
     width: 280px;
     margin: 10px;
     border-radius: 20px 20px 0 0;
@@ -46,7 +43,7 @@ body {
 }
 
 .car-1 {
-    background-image: url('../images/adopt1.webp');
+    background-image: url('../images/adopt1k.jpeg');
 }
 
 
@@ -67,7 +64,7 @@ body {
     padding: 10px;
 }
 .card a {
-    color: rgba(247, 243, 243, 0.781);
+  
     padding: 15px 20px;
     display: block;
     text-align: center;
@@ -76,8 +73,6 @@ body {
     text-decoration: none;
 }
 .card:hover {
-    background-color: hsla(197, 81%, 46%, 0.555);
-    color: white;
     cursor: pointer;
     transform: scale(1.03);
     transition: all 1s ease;
@@ -193,4 +188,8 @@ h1 {
 
 .text-info {
     margin-left: 2px;
+}
+
+.a {
+    color:#4e4139;
 }
