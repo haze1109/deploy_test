@@ -16,7 +16,7 @@ ul {
 }
 
 body {
-    background: #59a5d8;
+    background: white;
 }
 .card button{
     opacity:75%;
@@ -167,4 +167,8 @@ h1 {
   .carousel-item img{
     height: 30vh;
     width: 100%;
-  }
+}
+
+.navbar-brand img{
+    width: 260px;
+}
