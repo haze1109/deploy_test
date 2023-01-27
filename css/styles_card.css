@@ -110,47 +110,15 @@ button{
     background-color: #0b0b0b;
 }
 @media(max-width:1000px){
-    .comntent{
+    .content{
         width:45px;
     }
 }
 @media(max-width:750px){
-    .comntent{
+    .content{
         width:100%;
     }
 }
-
-.logos img{
-    width:50px;
-    height: 50px;
-}
-
-.logo-a:hover{
-    cursor: pointer;
-    transform: scale(1.03);
-    transition: all 1s ease;
-
-}
-.logo :hover{
-    cursor: pointer;
-    transform: scale(1.10);
-    transition: all 1s ease;
-}
-.icon {
-    width:80px;
-}
-.voucher {
-    width: 50px;
-}
-
-
-.logo2 button{
-    border-radius: 20px;
-}
-.checkout button{
-    border-radius: 20px;
-}
-
 h1 {
     background: linear-gradient(
         270deg, #3f5efb, #fc466b
@@ -159,19 +127,6 @@ h1 {
     -webkit-text-fill-color: transparent;
     background-clip: none;
 }
-
-.choices button:hover{
-    cursor: pointer;
-    transform: scale(1.02);
-    transition: all 1s ease;
-    background-color: white;
-}
-
-.happy img{
-    width: 100%;
-    border-radius: 30px;
-}
-
 .nav-item{
     border-radius: 30px;
     opacity: 0.7;
