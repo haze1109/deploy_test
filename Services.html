@@ -27,10 +27,11 @@
     <link rel="stylesheet" href="./css/styles.css" />
     <title>Happy pet Services Page</title>
   </head>
-          <body class="bg-light">
-                             <!--nav start-->
-                       <div class="container-fluid">
-                            <nav class="navbar sticky-top navbar-expand-sm bg-body-tertiary">
+  <body class="bg-light">
+     
+      <div class="container-fluid">
+         <!--nav start-->
+          <nav class="navbar sticky-top navbar-expand-sm bg-body-tertiary">
                               <a class="navbar-brand" href="#home"
                                 ><img src="images/Logo.png" alt="happy pet logo"
                               /></a>
@@ -77,22 +78,11 @@
                                   </button>
                                 </form>
                               </div>
-                            </nav>
-                            <!--nav end-->
-                            <div class="row text-center">
-                              <div class="col-sm-12 pt-sm-5 mb-5">
-                                  <div><h1><strong>Loving pet care in your neighborhood</strong></h1></div>
-                                  <p><h3>book trusted sitters and dog walkers.</h3></p>
-                              </div>
-                              
+          </nav>
+        <!--nav end-->
+            <div class="row text-center justify-content-sm-center">
                               <!-- Modal start-->
-                                <!-- Button trigger modal -->
-                                <div class="text-white mb-sm-1 mt-sm-1">
-                                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-                                        Sign up
-                                      </button>
-                                </div>
-                                
+                                <!-- Button trigger modal -->                                                             
                                 <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                                   <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
                                     <div class="modal-content">
@@ -147,21 +137,22 @@
                                       </div>
                                     </div>
                                   </div>
+                                </div>                             
+                                  <!-- Modal end -->
+                                  <div class="col-sm-12 pt-sm-5 mb-2">
+                                    <div><h1><strong>Loving pet care in your neighborhood</strong></h1></div>
+                                    <p><h3>book trusted sitters and dog walkers.</h3></p>
                                 </div>
-                            </div>
-                                <!-- Modal end -->
-                    
-                            <div class="row pt-5">
-                                      <div class="col-sm-6 text-center">
-                                          <div class="input-group mb-3">
-                                              <button class="btn btn-outline-secondary" type="button">Pet type</button>
-                                              <select class="form-select" id="inputGroupSelect03" aria-label="Example select with button addon">
-                                              <option value="1">Dog</option>
-                                              <option value="2">Cat</option>
-                                              </select>
-                                          </div>
-                                      </div>
-                                <div class="col-sm-6 text-center">
+                                <div class="col-sm-2 text-center">
+                                  <div class="input-group mb-3">
+                                      <button class="btn btn-outline-secondary" type="button">Pet type</button>
+                                      <select class="form-select" id="inputGroupSelect03" aria-label="Example select with button addon">
+                                      <option value="1">Dog</option>
+                                      <option value="2">Cat</option>
+                                      </select>
+                                  </div>
+                              </div>     
+                                <div class="col-sm-2 text-center">
                                       <div class="input-group mb-3">
                                           <button class="btn btn-outline-secondary" type="button">Pet care</button>
                                           <select class="form-select" id="inputGroupSelect03" aria-label="Example select with button addon">
@@ -171,18 +162,17 @@
                                           </select>
                                       </div>
                                 </div>
-                            </div>
-                            <div class="row">
-                                      <div class=col-sm-3>
-                                          <div class="input-group mb-3">
-                                              <button class="btn btn-outline-secondary" type="button">Mode</button>
-                                              <select class="form-select" id="inputGroupSelect03" aria-label="Example select with button addon">
-                                              <option value="1">Pick Up</option>
-                                              <option value="2">Drop off</option>
-                                              </select>
-                                          </div>
-                                      </div>
-                                      <div class="col-sm-5">
+                                <div class=col-sm-2>
+                                  <div class="input-group mb-3">
+                                      <button class="btn btn-outline-secondary" type="button">Mode</button>
+                                      <select class="form-select" id="inputGroupSelect03" aria-label="Example select with button addon">
+                                      <option value="1">Pick Up</option>
+                                      <option value="2">Drop off</option>
+                                      </select>
+                                  </div>
+                              </div>                            
+                            <div class="row justify-content-center">
+                                      <div class="col-sm-2">
                                           <div class="input-group mb-3">
                                               <span class="input-group-text" id="inputGroup-sizing-default">Location</span>
                                               <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
@@ -192,45 +182,77 @@
                                         <div class="input-group mb-3">
                                             <span class="input-group-text" id="inputGroup-sizing-default">Zip Code</span>
                                             <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                                            <button type="submit" class="btn btn-warning">
+                                              Search</button>
                                         </div>
                                     </div>
-
-
-                                    <div class="col-sm-12 text-center pt-5 mb-2"><button type="submit" class="btn btn-warning">Search</button></div>
+                                    <div class="text-white mb-sm-1 mt-sm-1">
+                                      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                            Sign up to be a Pet sitter now.
+                                          </button>
+                                    </div>
                             </div>
-                        
-                            
-                                <div class="col-sm text-center pt-sm-3">
-                                  <h1><strong>Adopt Here.</strong></h1>
-                               </div>
-                               <div class="row">
-                                <div class="col-sm-6 bg-light text-center pt-1">
-                                  <h5><strong>Our new animal clinic is now open!</strong></h5>
-                                  <p>Thanks to your generous contributions, our new Happy pet clinic is ready.
-                                    The building is yet to be equipped with a few medical apparatuses, kitchen appliances, and infra facilities.
-                                  </p> 
+            </div>                                                                                                       
+            <div class="row justify-content-sm-center px-sm-1">
+                                  <h1 class="text-center justify-content-center"><strong>Adopt Here.</strong></h1>
+                                <div class="col-sm-3 bg-white text-center pt-1">
+                                  <div class="card" style="width: 18rem;">
+                                    <img src="images/clinic.jpg" class="card-img-top" alt="animal clinic">
+                                    <div class="card-body">
+                                      <h5><strong>Our new animal clinic is now open!</strong></h5>
+                                      <p class="card-text">
+                                      Thanks to your generous contributions, our new Happy pet clinic is ready.
+                                      The building is yet to be equipped</p>
+                                    </div>
+                                  </div>
                                 </div>    
-                                <div class="col-sm-6 bg-light text-center pt-1">
-                                  <h5><strong>We treat dozens of animals each month</strong></h5>
-                                <p>Our clinic rehabilitation facility provides medical treatment, compassionate care and a safe place for vulnerable animals to recover and recuperate. </p>  
-                                </div>        
-                              </div>
-                              <!--accordion start-->
-                          <h1 class="mt-sm-2 pt-sm-2 text-center">Adoption info and FAQs</h1>
-                            <div class="row  justify-content-sm-center">
-                              <div class="col-sm-4 text-center pt-1">
-                                  <div class="accordion" id="accordionExample">
-                                  <div class="accordion-item">
-                                    <h2 class="accordion-header" id="headingOne">
-                                      <button
+                                <div class="col-sm-3 bg-white text-center pt-1">
+                                  <div class="card" style="width: 18rem;">
+                                    <img src="images/cv5.jpg" class="card-img-top" alt="animal clinic">
+                                    <div class="card-body">
+                                      <h5><strong>We treat dozens of animals each month</strong></h5>
+                                      <p class="card-text">Our clinic rehabilitation facility provides medical treatment, compassionate care and a safe place for animals to recover.
+                                    </p>
+                                    </div>
+                                  </div>                         
+                                </div>  
+                                <div class="col-sm-3 bg-white text-center pt-1">
+                                  <div class="card" style="width: 18rem;">
+                                    <img src="images/cv2.webp" class="card-img-top" alt="animal clinic">
+                                    <div class="card-body">
+                                      <h5><strong>We treat dozens of animals each month</strong></h5>
+                                      <p class="card-text">Our clinic rehabilitation facility provides medical treatment, compassionate care and a safe place for animals to recover.
+                                    </p>
+                                    </div>
+                                  </div>                         
+                                </div>  
+                                <div class="col-sm-3 bg-white text-center pt-1">
+                                  <div class="card" style="width: 18rem;">
+                                    <img src="images/cv3.jpg" class="card-img-top" alt="animal clinic">
+                                    <div class="card-body">
+                                      <h5><strong>We treat dozens of animals each month</strong></h5>
+                                      <p class="card-text">Our clinic rehabilitation facility provides medical treatment, compassionate care and a safe place for animals to recover.
+                                    </p>
+                                    </div>
+                                  </div>                         
+                                </div>                      
+            </div>
+            <!--accordion start-->
+            <h1 class="mt-sm-2 pt-sm-2 text-center">Adoption info and FAQs</h1>
+            <div class="row  justify-content-sm-center">
+                <div class="col-sm-4 text-center pt-1">
+                      <div class="accordion" id="accordionExample">
+                          <div class="accordion-item">
+                              <h2 class="accordion-header" id="headingOne">
+                                  <button
                                         class="accordion-button"
                                         type="button"
                                         data-bs-toggle="collapse"
                                         data-bs-target="#collapseOne"
                                       >
                                       What are the requirements to adopt a pet?
-                                      </button>
-                                    </h2>
+                                  </button>
+                              </h2>
                                     <div
                                       id="collapseOne"
                                       class="accordion-collapse collapse show"
@@ -240,7 +262,7 @@
                                       atleast 18 years of age, valid id with current address and a meeting with one of our pet counselors.
                                       </div>
                                     </div>
-                                  </div>
+                          </div>
                                   <div class="accordion-item">
                                     <h2 class="accordion-header" id="headingTwo">
                                       <button
@@ -283,10 +305,8 @@
                                       </div>
                                     </div>
                                   </div>
-                                </div>
-                              </div>
-                              
-                              
+                      </div>
+                </div>                                                            
                               <div class="col-sm-4 pt-1 mb-3 text-black opacity-75">
                                 <h6>Hours of Operation</h6>
                               <table class="table">
@@ -319,16 +339,16 @@
                                 </tbody>
                               </table>
                              </div>
-                          </div>
-                          <div class="paw row pb-3  text-center text-black">
+            </div>
+            <div class="paw row pb-3 justify-content-sm-center text-center text-black">
                             <div class="logo col-sm-3"><a href="#"><img src="images/paw.jpg" alt=""></a> Donate</div>
                             <div class="logo col-sm-3"><a href="#"><img src="images/paw.jpg" alt=""></a> Adopt</div>
                             <div class="logo col-sm-3"><a href="#"><img src="images/paw.jpg" alt=""></a> Volunteer</div>
                             <div class="logo col-sm-3"><a href="#"><img src="images/paw.jpg" alt=""></a>Low-cost Clinic</div>
-                          </div>
-                            <!--accordion end-->
-                            <!--foorter start-->
-                            <div
+            </div>
+            <!--accordion end-->
+            <!--foorter start-->
+            <div
                             class="row mx-sm-0 px-sm-0 pt-3 pb-3 mb-sm-3 justify-content-sm-center bg-dark text-white text-center"
                           >
                             <div class="col-sm-2 text-center">
@@ -356,7 +376,6 @@
                                 <a href="#"> <li>Donate</li></a>
                               </ul>
                             </div>
-
                             <div class="col-sm-1">
                               <ul>
                                 <h6>Programs</h6>
@@ -387,11 +406,8 @@
                               <a href="#"><i class="bi bi-whatsapp"></i></a>
                             </div>
                             <!--Socials end-->
-                            </div>
-                            <!--foorter end-->
-                  </div> 
-          
-           
-          
+            </div>
+            <!--foorter end-->
+      </div>                                 
   </body>
 </html>
