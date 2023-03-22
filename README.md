@@ -14,6 +14,7 @@
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://stackoverflow.com/users/kuya haze" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/stack-overflow.svg" alt="kuya haze" height="30" width="40" /></a>
+<a href="https://fb.com/https://m.me/momi1109" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="https://m.me/momi1109" height="30" width="40" /></a>
 <a href="https://dribbble.com/kuya" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/dribbble.svg" alt="kuya" height="30" width="40" /></a>
 </p>
 
