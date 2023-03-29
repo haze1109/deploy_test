@@ -1,3 +1,5 @@
+![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=Hi%2C+I'm+Haze+Morales;Mini+Project+1)
+
 <h1 align="center">Hi 👋, I'm Haze Morales</h1>
 <h3 align="center">A passionate frontend developer from Philippines</h3>
 
